@@ -1,3 +1,5 @@
+
+
 **Paso 1:** Crear el archivo .htaccess dentro del directorio raíz www
 
 Darle permisos al directorio sudo chmod 777 -R /var/www/html
@@ -33,6 +35,8 @@ sudo gedit /etc/apache2/sites-available/000-default.conf
 Agregar estás lineas, después de **DocumentRoot /var/www/html:**
 
 <Directory /var/www/html>
+
+
 AllowOverride All
 </Directory>
 
