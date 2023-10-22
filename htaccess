@@ -1,5 +1,3 @@
-
-
 **Paso 1:** Crear el archivo .htaccess dentro del directorio raíz www
 
 Darle permisos al directorio sudo chmod 777 -R /var/www/html
@@ -42,4 +40,3 @@ AllowOverride All
 
 **Reiniciamos Apache**
 sudo service apache2 restart
-
