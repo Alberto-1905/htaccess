@@ -42,3 +42,4 @@ AllowOverride All
 
 **Reiniciamos Apache**
 sudo service apache2 restart
+
